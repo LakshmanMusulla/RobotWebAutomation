@@ -1,6 +1,9 @@
 *** Settings ***
 Library    SeleniumLibrary
 
+*** Variables ***
+${url}     http://demo.automationtesting.in/Register.html
+${browser}     firefox
 
 *** Test Cases ***
 Navigate To Site:
